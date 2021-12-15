@@ -56,7 +56,7 @@ foreach (var line in file)
             if (!segment.Contains(c)) isShitBroke = true;
         }
         // If our shit is broke then on to the next
-        if(isShitBroke) continue;
+        if (isShitBroke) continue;
 
         // At this point, we have 9
         decodedSequences.Add(segment, 9);
